@@ -21,7 +21,7 @@ class ApplicationController < Sinatra::Base
     if params["username"] = ""
       redirect to "/failure"
     else
-      redirect to "/login"
+      redirect "/login"
     end
   end
 
