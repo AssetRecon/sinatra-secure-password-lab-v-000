@@ -5,3 +5,4 @@ class CreatUsers < ActiveRecord::Migration
     t.string :password
   end
 end
+end
